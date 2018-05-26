@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    margin: 0px;    
+
+}
+
+@media only and (max-width: 768px){
+	.container {
+   	margin-left: 25%;
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+}
+
+.container {
+    padding-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    /* margin: 20px; */
+    vertical-align: middle;
+    /* align-content: center; */
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+/*hotel footer css starts */
+#footer {
+    position: relative;
+    margin-top: 0px;
+    clear:both;
+    height: 70px;
+    background: #005596;
+
+}
+.footer-row{
+    text-align: center;
+}
+.footer-row a{
+    color: white;
+}
+.footer-row span {
+    color: white;
+}
+.footer-row p {
+    height: 1px;
+    color: white;
+}
+
+.footer-container {
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+}
+/*hotel footer css ends */

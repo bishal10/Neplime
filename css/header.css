@@ -1,0 +1,118 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    }
+
+.navbar {
+    position: relative;
+    min-height: 90px;
+    margin-bottom: 0px; 
+    border-radius: 0px;
+}
+
+.navbar-default {
+    background-color: #005596;
+    border:0px;
+    
+}
+
+.navbar-default .navbar-brand {
+    color: #f5f3f3;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 33px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -13px;
+    padding-left: 25px;
+}
+
+.navbar-nav {
+    float: left;
+    margin-left: 50px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f5f3f3;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #005596;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 130px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #005596;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: white;
+    white-space: nowrap;
+}
+
+
+
+/*hotel footer css starts */
+#footer {
+    position: relative;
+    margin-top: 0px;
+    clear:both;
+    height: 70px;
+    background: #005596;
+
+}
+.footer-row{
+    text-align: center;
+}
+.footer-row a{
+    color: white;
+}
+.footer-row span {
+    color: white;
+}
+.footer-row p {
+    height: 1px;
+    color: white;
+}
+
+.footer-container {
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+}
+/*hotel footer css ends */
+
+
+
+

@@ -1,0 +1,206 @@
+@media (min-width: 765px){
+    .wrapper{
+    width: 750px;
+    position: relative;
+}
+}
+body{
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    margin: 0px;    
+
+}
+#middle_layer{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+}
+
+#booking_wrapper {
+    height:500px;
+    padding-top: 100px;
+    /*min-height: 500px;*/
+}
+@media (max-width: 768px){
+.container {
+    width: 100%;
+    margin-top: -110px;
+}
+.row_services{
+    margin-top: 90px;
+}
+ .adult_children {
+    height: 35px;
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+  .dropdown-menu_adult_children li label {
+    color: #080808;
+    text-decoration: none;
+    width: 58%;
+    padding-left: 17%;
+}
+
+}
+/*@media only and (max-width: 768px){
+    .adult_children{
+    margin-top: 0px;
+    width: 90%;
+}
+}*/
+/*hotel and events css starts */
+
+.bg_booking {
+    background: rgba(189, 55, 55, 0) url(../images/bg_booking.png) repeat scroll 0 0;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
+/*hotel and events css ends*/
+
+@media (min-width: 992px){
+.col-md-1 {
+    width: 15%;
+}
+}
+
+/*css for div tag of adult and children */
+/*@media only and (max-width: 768px){
+   .adult_children {
+    height: 35px;
+   /* width: 90% !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+}*/
+
+.adult_children{
+    height: 35px;
+    /*min-width: 30%;*/
+    margin-top: 30px;
+}
+
+
+.container_adult {
+    position: absolute;
+    margin: 2px;
+    height: 30px;
+    width: 90%;
+    background-color: #f8f8f8;
+    border-radius: 4px;  
+}
+
+/*icon for user in dropdown of adult and children selection*/
+
+.user_icon{
+    padding-top: 6px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+}
+
+.button_adult_children{
+    height: 30px;
+    width: 90%;
+    float: right;
+    z-index: 1000;
+}
+
+.button_adult_children span{
+    margin-top: 7px;
+    float: right;
+}
+/*css of dropdown menu for adult and children starts*/
+.open>.dropdown-menu_adult_children {
+    display: block;
+   /* z-index: 1000;*/
+    overflow: auto;
+}
+
+.dropdown-menu_adult_children {
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 90%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu_adult_children li label {
+    color: #080808;
+    text-decoration: none;
+    width: 60%;
+    padding-left: 25%;
+    overflow: auto;
+}
+.dropdown-menu_adult_children li label span input {
+    background-color: #f8f8f8;
+    border: none;
+    width: 50px;
+    overflow: auto;
+}
+
+/*css of dropdown menu for adult and children ends*/
+
+
+#final_layer{
+    height: 220px;
+    width: 100%;
+    
+}
+
+
+.information_about_hotel {
+    height: 150px;
+    width: 100%;
+}
+
+
+.row_service{
+    height: 150px;
+    padding-top: 15px;
+}
+
+.service_section {
+    height: 150px;
+    /*background: #f8f8f8;*/
+    padding-top: 30px;
+    /*background: #f8f8f8;*/
+    padding-bottom: 30px;
+}
+
+/*.container_service {
+    padding-top:0px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+
+.service_div p{
+    text-align: center;
+}
+/*information about hotel ends*/ 
+

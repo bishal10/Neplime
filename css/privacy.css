@@ -1,0 +1,10 @@
+.Mainbody{
+	margin-top:25px;
+}
+.Mainbody p{
+	font-size:12px;
+}
+.Mainbody li{
+	font-size:13px;
+	text-decoration: none;
+}

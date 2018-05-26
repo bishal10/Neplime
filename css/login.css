@@ -1,0 +1,142 @@
+@media (min-width: 800px){
+    .wrapper{
+    width: 750px;
+    position: relative;
+}
+}
+
+body{
+    width: 100%;
+    height: 800px;
+    padding-top: 0px;
+    margin: 0px;    
+
+}
+#middle_layer{
+    background-image: url(../images/lake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 650px;
+}
+
+body, html{
+     height: 100%;
+    background-repeat: no-repeat;
+    background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+}  
+
+.panel-heading {
+    margin-top: 10px;
+    padding: 0px 69px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+h1.title { 
+    font-size: 30px;
+    
+    font-weight: 400; 
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.fb-login {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
+}
+.google-login {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+.fb-login{
+    background-color: #3B5998;
+}
+.google-login{
+ background-color: #CF4332;
+}
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+
+
+#final_layer{
+    height: 90px;
+    width: 100%;    
+}
+
+.copyright{
+    padding-top: 20px;
+    height: 100px;
+    background: #005596;
+    text-align: center;    
+}
+
+.copyright a {
+    color: white;
+}
+.copyright span {
+    color: white;
+}
+.copyright p {
+
+    color: white;
+}
+
+/*css for fb button*/
+
+/*ends here*/

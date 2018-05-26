@@ -1,0 +1,22 @@
+.form{
+	background-color: #DCDCDC;
+}
+.contactus h2{
+	color: #005596;
+	margin-bottom: 20px;
+}
+/*input[type=text]{
+	background: #ADD8E6;
+}*/
+input[type=submit]{
+	background: #005596;
+	padding:10px;
+	border-radius: 5px;
+	color:#fff;
+	margin:20px 0;
+}
+.map h2{
+	margin-left: 90px;
+	color: #005596;
+	margin-bottom: 20px;
+}
